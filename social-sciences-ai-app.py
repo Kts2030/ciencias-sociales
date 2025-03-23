@@ -1,7 +1,7 @@
 # app.py - Aplicación principal
 import streamlit as st
 from langchain.llms import OpenAI
-from langchain.chat_models import ChatOpenAI
+from langchain.openai import ChatOpenAI
 from langchain.prompts import PromptTemplate
 import os
 from dotenv import load_dotenv
